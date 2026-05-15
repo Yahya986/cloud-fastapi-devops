@@ -11,6 +11,10 @@ A cloud-deployed FastAPI project using Docker, GitHub, and Railway.
 
 </div>
 
+## 🏗️ Architecture
+
+![Architecture](assets/architecture.png)
+
 ## Live Demo
 
 https://ai-devops-demo-production.up.railway.app/
