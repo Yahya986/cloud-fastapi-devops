@@ -2,6 +2,9 @@ from fastapi import FastAPI
 from fastapi.responses import HTMLResponse
 from datetime import datetime
 import platform
+import time
+
+start_time = time.time()
 
 app = FastAPI()
 
@@ -102,6 +105,7 @@ def home():
         <p><strong>Tech Stack:</strong> FastAPI, Docker, Railway, GitHub</p>
         <p><strong>Deployment:</strong> Cloud Containerized App</p>
         <p><strong>Status:</strong> Online</p>
+        <p><strong>Uptime:</strong> {round(time.time() - start_time)} seconds</p>
     </div>
 
     <a href="/health">Health Dashboard →</a><br>
