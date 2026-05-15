@@ -1,61 +1,23 @@
-# Cloud FastAPI DevOps Project 🚀
+# 🚀 Cloud FastAPI DevOps Dashboard
 
-A beginner-friendly DevOps project demonstrating cloud deployment, Docker containerization, GitHub integration, and CI/CD workflows using FastAPI and Railway.
-
----
+A cloud-deployed FastAPI project using Docker, GitHub, and Railway.
 
 ## Live Demo
 
-https://YOUR-RAILWAY-DOMAIN
-
----
+https://ai-devops-demo-production.up.railway.app/
 
 ## Features
 
-- FastAPI backend API
-- Docker containerization
-- Cloud deployment with Railway
-- GitHub integration
-- Automatic redeployment on git push
-- Health monitoring endpoint
-- System information endpoint
-
----
-
-## API Endpoints
-
-### Home
-`/`
-
-Returns project status and deployment message.
-
----
-
-### Health Check
-`/health`
-
-Returns application health status and timestamp.
-
----
-
-### System Info
-`/system`
-
-Returns Python version and server information.
-
----
+- Dockerized application
+- Cloud deployment
+- Automatic redeployment
+- Health dashboard
+- System information dashboard
 
 ## Tech Stack
 
 - Python
 - FastAPI
 - Docker
-- Git & GitHub
+- GitHub
 - Railway
-
----
-
-## DevOps Workflow
-
-```text
-Code → Git → GitHub → Railway → Docker Container → Live Deployment
