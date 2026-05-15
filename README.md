@@ -21,3 +21,18 @@ https://ai-devops-demo-production.up.railway.app/
 - Docker
 - GitHub
 - Railway
+
+## Screenshots
+
+### Home Page
+![Home](assets/home.png)
+
+---
+
+### Health Dashboard
+![Health](assets/health.png)
+
+---
+
+### System Dashboard
+![System](assets/system.png)
